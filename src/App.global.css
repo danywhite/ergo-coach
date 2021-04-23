@@ -6,12 +6,7 @@ body {
   position: relative;
   color: white;
   height: 100vh;
-  background: linear-gradient(
-    200.96deg,
-    #fedc2a -29.09%,
-    #dd5789 51.77%,
-    #7a2c9e 129.35%
-  );
+  background-color: #55ff88;
   font-family: sans-serif;
   overflow-y: hidden;
   display: flex;
@@ -57,4 +52,14 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+}
+
+.clockFrame {
+  color: rgb(6, 3, 22);
+  margin: 10px;
+}
+
+.boum {
+  color: rgb(6, 3, 22);
+  margin: 10px;
 }
